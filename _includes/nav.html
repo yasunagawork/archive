@@ -1,0 +1,14 @@
+<nav>
+		<ul class= "nav {{include.navclass}}">
+			<li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}"> Home</a></li>
+			<li><a href="{{site.baseurl}}/aboutme/" class="{% if page.url contains 'aboutme' %}current{% endif %}">About Me</a></li>
+			<li><a href="{{site.baseurl}}/service/" class="{% if page.url contains 'service' %}current{% endif %}"> Service</a></li>
+			<li><a href="{{site.baseurl}}/whyme/" class="{% if page.url contains 'whyme' %}current{% endif %}"> Why me</a></li>
+			
+			<li><a href="{{site.baseurl}}/samples/" class="{% if page.url contains 'samples' %}current{% endif %}"> Samples</a></li>
+
+			<li><a href="{{site.baseurl}}/quote/" class="{% if page.url contains 'quote' %}current{% endif %}"> Quote</a></li>
+			
+			<li><a href="{{site.baseurl}}/connect/" class="{% if page.url contains 'connect' %}current{% endif %}">Connect</a></li>
+		</ul>
+</nav>

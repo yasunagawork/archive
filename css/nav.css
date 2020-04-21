@@ -1,0 +1,46 @@
+.current{
+
+	background-color: #F6D5C1;
+	color: blue;
+
+}
+
+.current_sub{
+
+	background-color: #F6D5C1;
+	color: blue;
+
+}
+
+.nav {
+
+	padding: 0;
+
+	list-style-type: none;
+	text-align: left; 
+
+}
+
+.nav li {
+	display: inline-block;
+	
+}
+
+.nav-top {
+	font-size: 1.25rem;
+	margin-top: 30px;
+}
+
+.nav-bottom { 
+	padding-top: 10px;
+	padding: 1em;
+	font-size: 0.9rem;
+	text-align: center;
+}
+
+.nav-sub { 
+	font-size: 1rem;
+}
+
+
+
