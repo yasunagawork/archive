@@ -1,4 +1,6 @@
 markdown: kramdown
-baseurl: https://yasunagawork.github.io/archive/
-exclude: ['README.md']
 future: True
+url: 'https://yasunagawork.github.io/archive'
+baseurl: /
+exclude: ['README.md']
+permalink: pretty
