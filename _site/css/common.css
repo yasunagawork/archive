@@ -97,6 +97,10 @@ pre {
 	 padding: 15px;
 }
 
+blockquote {
+    background-color: #dfe1e6;
+}
+
 
 
 
@@ -115,7 +119,7 @@ pre {
 	padding-right: 0;
 	padding-left: 0;
   	text-align: center;
-  	background-color:white;
+  	background-color:#DCDCDC;
   	}
 
 #container ul{
@@ -130,7 +134,7 @@ pre {
 	padding-right: 10px;
 	padding-left: 10px;
 	text-align: left;
-	background-color:#FFCCAC;
+	background-color:#DCDCDC;
 }
 
 #contentbox p{
@@ -145,7 +149,7 @@ pre {
 	padding-right: 10px;
 	padding-left: 10px;
 	text-align: center;
-	background-color:#FFCCAC;
+	background-color:#DCDCDC;
 }
 
 #textbox{
@@ -291,7 +295,7 @@ pre {
 
 footer {
 	text-align: center;
-	background-color: #FFC29C;
+	background-color: #DCDCDC;
 }
 
 .foottext {
