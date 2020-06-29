@@ -1,4 +1,4 @@
 markdown: kramdown
-baseurl: /translation
+baseurl: /archive
 exclude: ['README.md']
 future: True
