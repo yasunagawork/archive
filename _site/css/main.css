@@ -20,11 +20,6 @@ body{
 
 
 
-li {
-	list-style-type: none;
-}
-
-
 a:link {
   color: #000000;
 }
@@ -93,14 +88,17 @@ th, td {
 }
 
 pre {
-	background: gray;
+	background: #ededed;
 	 padding: 15px;
 }
 
 blockquote {
-    background-color: #dfe1e6;
+    background-color: #ededed;
 }
 
+img {
+	width:100%;
+}
 
 
 
@@ -123,8 +121,8 @@ blockquote {
   	}
 
 #container ul{
-	margin:0;
-	padding:0; 
+	
+	margin-left:20px; 
 }
 
 #contentbox{
@@ -166,6 +164,19 @@ blockquote {
 	padding-left: 20px;
 	text-align: center;
 }
+
+#linksandtags{
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	text-align: left;
+	background-color:white;
+
+}
+
+
 
 
 
@@ -263,6 +274,7 @@ blockquote {
 	padding-left: 10px;
 	padding-right: 10px;
 }
+
 
 
 

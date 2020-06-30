@@ -1,0 +1,28 @@
+I"O<h3 id="preface-on-working-with-avr">Preface on working with AVR</h3>
+
+<ol>
+  <li>
+    <p>Introduction of book “AVR programming”</p>
+  </li>
+  <li>
+    <p>arduino is a cheap high
+ 2.1 arduino IS avr  –&gt; specific hardware for the needs –&gt; working with limitation –&gt;abstracting craft</p>
+  </li>
+  <li>
+    <p>closer to the nature of memory device</p>
+  </li>
+  <li>
+    <p>invisible architecture</p>
+  </li>
+  <li>
+    <p>could this be a good teaching material?</p>
+  </li>
+  <li>
+    <p>what we need</p>
+  </li>
+  <li>
+    <p>AVR programming tool chain</p>
+  </li>
+</ol>
+
+:ET

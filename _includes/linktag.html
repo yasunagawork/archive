@@ -1,0 +1,28 @@
+<div id="linksandtags">
+
+<h3>Links</h3>
+<ul>
+	{% if page.inlink1 %}
+	<a href="{{site.baseurl}}{{page.inlink1}}">{{page.inlink1Title}}</a> |
+	{% endif %}
+
+
+	{% if page.exlink1 %}
+	<a href="{{site.baseurl}}{{page.exlink1}}">{{page.exlink1Title}}</a>
+	{% endif %}
+
+
+</ul>
+
+<h3>Tags</h3>
+<ul>
+<tr>
+{% for tag in page.tags %}
+<td><a href="{{site.baseurl}}/tags#{{ tag }}"> {{ tag }}</a></td> |
+{% endfor %}
+</tr>
+</ul
+
+
+
+</div>

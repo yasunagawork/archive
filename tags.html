@@ -1,0 +1,27 @@
+---
+layout: default
+
+---
+
+	
+<div id=contentbox>
+
+
+<h1>Tags</h1>
+
+<br>
+
+{% for tag in site.tags %}
+  <a name="{{ tag[0] }}"></a>
+  <h2>{{ tag[0] }}</h2>  <ul>
+    {% for post in tag[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a> <span>{{ post.discription }} </span></li>
+    {% endfor %}
+  </ul>
+
+{% endfor %}
+
+
+</div>
+
+
