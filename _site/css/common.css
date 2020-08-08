@@ -192,12 +192,18 @@ img {
   width:25%;
 }
 
-.leftmenu h1, h3, ul, li{
-	padding-left:10px;
+.leftmenu h1, h2, h3{
+	padding-left:5px;
 }
 
+.leftmenu ul, li{
+	padding-left:15px;
+
+}
+
+
 .main {
-  background-color:#f1f1f1;
+  background-color:#DCDCDC;
   padding:20px;
   float:left;
   width:75%; /* The width is 60%, by default */
