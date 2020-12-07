@@ -30,6 +30,8 @@ Interesting point here is people's visceral reactions. Many people seems to not 
 
 Hello Kitty is clearly is not a cat it is an anthropomorphized creature and that is something different than the cat. And beyond the detailed justification of these statement, the creator said so. Here we just have to accept this new pattern and new category. The statement like this creates social gravity. 
 
+### Precision of language <a name="precisionoflanguage"></a>
+
 I wonder if this is an western expectation for the matters to fit in a category precisely? In a language and culture where subjects are often so fluid and left out of meaning the unknown is left to be unknown because that is what it is. Something can be a one thing and the other thing at the same time, but also they can be neither. It is not only a healthy agitation on symbol system, it is an reminder that all symbol system is constructed and just and reference to what exist. Thing exist parallel to the symbol system and language and they don't match always. Occasion like this shows the fragile nature of symbols and categories where we measure ourselves from what thing is and what thing is not and this fragility leaks the unknown of all the in-between which make us reconsider and think about what we are really looking at.
 
 Western (and particularly American) obsession to binarism come in mind. Culture, politic, and social institution seem to push this idea of binarism in America. English language is an mathematical language that practice faith in stable meaning. 
