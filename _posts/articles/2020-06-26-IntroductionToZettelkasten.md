@@ -2,7 +2,7 @@
 layout: posts
 title: Zettelkasten note taking
 discription: articles on Zettelkasten and the idea
-categories: Writing
+categories: On_Writing
 tags: system web
 
 ---

@@ -1,0 +1,52 @@
+---
+layout: posts
+title: Electronic Wind Instrunment
+discription: process and experimentation on wind module in electronic instrunment
+categories: Instrunment
+tags: electronics 
+inlink1: 
+inlink1Title: 
+exlink1: 
+exlink1Title: 
+
+---
+
+
+## Electronic Wind Instrunment
+
+I have entertained the idea of electronic wind instrunment in 2018 with Will Schorre when I was living in Baltimore. We have experimented with wind sensor ideas for the electronic instrunment. I am revisiting the prototypes we made and document the process of procucing an another itteration.
+
+---
+<br>
+
+
+
+
+
+### the body
+
+One of my inspiration for this study was my interest in the relationship between the instrunment and the body. Interfacing with electronic instrunments particulary with synthesisers, often how our body relate to the patterns of electrons are through patching, push/togle buttons, knobs, slides, keyboards, joysticks, etc. Monst of them involve the interaction throgh fingers. Is there other aspect of our bodily property that interface with the system? Could other modes of interfacing to the system provide different kind of embodyment of system in performance? How can we introduce/project/transfer physical property of our body into the system?
+
+Thinking about different traditional acoustic instrunments, the way wind instrunments highlights nuance of our breath came to mind. Physical restraints of our lung capacity gives characteristics to the perfromance. The patterns created by breath can be very nuanced and controlled in such a subtle way. Starting with slowly exhaling then gradually strengthed the breath and end abruptly. Rythmically start and stop exhaling gradually weakening. Inhale twise and exhale three time over and over. Our breath is so tied to the size of hour lung, diaphrame, ab muscles, and further shapes by architecture of mouth -- tongueand chaaks and lips. 
+
+### Khene
+
+At the time of this thoghts, I was listening to music from Laos that involves a wind instrunemt (mouth organ) called [Khene](https://en.wikipedia.org/wiki/Khene). Khene is a traditional wind instrunment originated in Laos dates back to the bronse age. It is a free reed instrunment, the ansestor of harmonica and an polyphonic instrunment, the ansentor of pipe organs. Free reeds allow performer to play notes both when performer is inflating and exhaling. I was interested in the rhythms of breahting that creates parcussive quality within the melodic notes and cords in this instrunment. 
+
+[Acoustics of the Khaen: The Laotian Free-Reed Mouth Organ ](http://www.ksanti.net/free-reed/essays/khaen.html)<br>
+[Khene: The Mouth Organ of Laos](https://discover.hubpages.com/entertainment/Khene-The-Mouth-Organ-of-Laos)<br>
+[A BRIEF HISTORY OF MOUTH BLOWN FREE REED INSTRUMENTS](https://www.patmissin.com/history/history.html)
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b2Hi7Wn6030" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4tdh-GzHfLY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+We talked about quality of Japanese-ness that is more smelly
+<a href="{{site.baseurl}}{{page.inlink1}}">{{page.inlink1Title}}</a> 
+
+
+
+
+
