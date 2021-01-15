@@ -8,10 +8,12 @@ html{
 	padding: 0;
 	background-color: #DCDCDC;
 
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Helvetica-light, Arial, sans-serif;
+
 	font-size: 100%/1.4;
 	color: #000000;
 	margin-left: 0px;
+
 }
 
 body{
@@ -151,10 +153,13 @@ img {
 }
 
 #textbox{
-	/*margin: 0 auto;*/
-	max-width: 700px;
+	margin: 0 auto;
+	max-width: 650px;
 	padding-right: 20px;
 	padding-left: 20px;
+	text-align: left;
+	font-size: 0.9em;
+  
 }
 
 #textbox2{
@@ -190,6 +195,7 @@ img {
   background-color: #FFCCAC;
   float:left;
   width:25%;
+  padding-left: 5px
 }
 
 .leftmenu h1, h2, h3{
@@ -198,6 +204,7 @@ img {
 
 .leftmenu ul, li{
 	padding-left:15px;
+	list-style: none
 
 }
 
@@ -207,6 +214,11 @@ img {
   padding:20px;
   float:left;
   width:75%; /* The width is 60%, by default */
+  max-width: 700px;
+   
+  font-size: 0.9em;
+  
+  
 
 }
 
