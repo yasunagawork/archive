@@ -158,9 +158,15 @@ img {
 	padding-right: 20px;
 	padding-left: 20px;
 	text-align: left;
-	font-size: 0.9em;
-  
+	font-size: 1.0em;
+
 }
+
+#textbox li, ul {
+	list-style:normal;
+}
+
+
 
 #textbox2{
 	margin: 0 auto;
@@ -195,7 +201,7 @@ img {
   background-color: #FFCCAC;
   float:left;
   width:25%;
-  padding-left: 5px
+  padding-left: 5px;
 }
 
 .leftmenu h1, h2, h3{
@@ -204,8 +210,7 @@ img {
 
 .leftmenu ul, li{
 	padding-left:15px;
-	list-style: none
-
+	list-style: square;
 }
 
 
@@ -215,12 +220,14 @@ img {
   float:left;
   width:75%; /* The width is 60%, by default */
   max-width: 700px;
-   
   font-size: 0.9em;
-  
-  
+  list-style: normal;
 
+  
 }
+
+
+
 
 
 
@@ -388,8 +395,9 @@ footer {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
   .leftmenu{
-    text-align: center;
+    text-align: left;
     padding-right:15px;
+    
   }
 }
 
@@ -436,7 +444,6 @@ footer {
 	padding-top: 10px;
 	padding: 1em;
 	font-size: 0.9rem;
-	text-align: center;
 }
 
 .nav-sub { 

@@ -1,0 +1,13 @@
+I"þ<h2 id="new-idea-and-lorre-mill-residency">New Idea and Lorre-Mill residency</h2>
+
+<p>I was in Baltimore for the weekend for a short short residency at the home of double-knot, Lorre-Mill. Will agreed to help me and work together on a new idea we have been talking about for few months on the design of the electronc mouth organ. We built a entirely new prototype to try out the idea. Our agenda was this:</p>
+
+<ol>
+  <li>Simplify and adjust the breath sencor opamp circuit</li>
+  <li>Try LM13700 for VCA</li>
+  <li>Power supply modulation with LM317</li>
+</ol>
+
+<p>The big idea to try was this, modulating the powersupply with the oscilator - which is powered by the modulated powersupply. Will this loop of ripple produce some compeling effect on the output?</p>
+
+:ET
