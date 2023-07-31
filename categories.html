@@ -9,20 +9,25 @@ layout: default
 
 <h1>Categories</h1>
 
+
+<div id="entirePosts">
+
 <br>
 
 {% for category in site.categories %}
   <h2>{{ category[0] }}</h2>
   <ul>
     {% for post in category[1] %}
-      <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a> <span>{{ post.discription }} </span></li>
+      <li>
+      {{post.date | date_to_string}} » <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a><br>  <div class="description">{{ post.discription }} </div></li>
+
     {% endfor %}
   </ul>
   
 {% endfor %}
 
 
-
+</div>
 
 
 </div>

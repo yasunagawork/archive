@@ -1,10 +1,18 @@
 .masthead {
-	padding: 1em;
-	background:#DCDCDC;
-	background-size:100px;
-	font-family: 'IBM Plex Mono', monospace;;
-	font-size: 1.7em;
 	
+	background:#f2f2ec;
+	padding-left: 5px
+
+	
+}
+
+site-title {
+	font-size: 1.7em;
+}
+
+sub-title {
+	font-size: 1.0em;
+	padding-left: 5px;
 }
 
 

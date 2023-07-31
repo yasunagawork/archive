@@ -6,11 +6,11 @@
 html{
 	margin: 0;
 	padding: 0;
-	background-color: #DCDCDC;
+	background-color: #f2f2ec;
 
 	font-family: Helvetica-light, Arial, sans-serif;
 
-	font-size: 100%/1.4;
+	font-size: 1.0em;
 	color: #000000;
 	margin-left: 0px;
 
@@ -67,7 +67,7 @@ h3{
 
 h4{
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 0.8em;
+	font-size: 0.9em;
 	color: #000000;
 	font-weight: normal;
 	
@@ -102,6 +102,15 @@ img {
 	width:100%;
 }
 
+.dates {
+	font-size:0.7em;
+}
+
+.description {
+	color: gray;
+	padding-top:5px;
+	padding-left:10px;
+}
 
 
 
@@ -119,7 +128,7 @@ img {
 	padding-right: 0;
 	padding-left: 0;
   	text-align: center;
-  	background-color:#DCDCDC;
+  	background-color:#f2f2ec;
   	}
 
 #container ul{
@@ -134,7 +143,7 @@ img {
 	padding-right: 10px;
 	padding-left: 10px;
 	text-align: left;
-	background-color:#DCDCDC;
+	background-color:#f2f2ec;
 }
 
 #contentbox p{
@@ -149,7 +158,7 @@ img {
 	padding-right: 10px;
 	padding-left: 10px;
 	text-align: center;
-	background-color:#DCDCDC;
+	background-color:#f2f2ec;
 }
 
 #textbox{
@@ -163,8 +172,9 @@ img {
 }
 
 #textbox li, ul {
-	list-style:normal;
+	/*list-style:normal;*/
 }
+
 
 
 
@@ -187,6 +197,10 @@ img {
 
 }
 
+#entirePosts li, ul {
+	list-style:none;
+}
+
 
 
 
@@ -198,24 +212,35 @@ img {
 
 
 .leftmenu {
-  background-color: #FFCCAC;
+  background-color: yellow;
   float:left;
   width:25%;
-  padding-left: 5px;
+  min-width: 200px;
+  padding-left: 10px;
+  height: 600px;
+  overflow: scroll;
+  font-size: 0.7em;
+  max-width: 300px;
 }
 
 .leftmenu h1, h2, h3{
 	padding-left:5px;
+	margin-top:10px;
 }
 
 .leftmenu ul, li{
-	padding-left:15px;
-	list-style: square;
+	list-style:square;
+	margin-top:10px;
+}
+
+.leftmenu a:link {
+	text-decoration: none;
 }
 
 
+
 .main {
-  background-color:#DCDCDC;
+  background-color:#f2f2ec;
   padding:20px;
   float:left;
   width:75%; /* The width is 60%, by default */
@@ -331,19 +356,20 @@ img {
 
 
 footer {
-	text-align: center;
-	background-color: #DCDCDC;
+	text-align: left;
+	background-color: #f2f2ec;
+	min-width:300px;
+	max-width:700px;
 }
 
 .foottext {
-	padding-top: 10px;
 	padding-bottom: 30px;
+	padding-left: 20px;
 	margin:0 auto;
-	font-family: 'IBM Plex Mono', monospace;
 	font-size: 0.9em;
 	
 	font-weight: thin;
-	width:300px;
+	
 
 
 }
@@ -390,13 +416,15 @@ footer {
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .leftmenu, .main{
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
   .leftmenu{
     text-align: left;
     padding-right:15px;
+    padding-left:25%;
+    max-width: 100%;
     
   }
 }
@@ -414,12 +442,6 @@ footer {
 
 }
 
-.current_sub{
-
-	background-color: #F6D5C1;
-	color: blue;
-
-}
 
 .nav {
 
@@ -427,18 +449,21 @@ footer {
 
 	list-style-type: none;
 	text-align: left; 
+	margin-top: 5px;
 
 }
 
 .nav li {
 	display: inline-block;
+	padding-left:5px;
 	
 }
 
 .nav-top {
-	font-size: 1.25rem;
-	margin-top: 30px;
+	font-size: 0.9em;
+
 }
+
 
 .nav-bottom { 
 	padding-top: 10px;
@@ -446,20 +471,25 @@ footer {
 	font-size: 0.9rem;
 }
 
-.nav-sub { 
-	font-size: 1rem;
-}
 
 
 
 
 .masthead {
-	padding: 1em;
-	background:#DCDCDC;
-	background-size:100px;
-	font-family: 'IBM Plex Mono', monospace;;
-	font-size: 1.7em;
 	
+	background:#f2f2ec;
+	padding-left: 5px
+
+	
+}
+
+site-title {
+	font-size: 1.7em;
+}
+
+sub-title {
+	font-size: 1.0em;
+	padding-left: 5px;
 }
 
 

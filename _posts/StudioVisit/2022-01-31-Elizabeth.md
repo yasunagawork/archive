@@ -12,6 +12,14 @@ exlink1Title:
 ---
 
 
+### Note from last
+
+Some notes from undocumented visit on 1/25/22
+
+Parrot: Pepper
+[Model Rival](https://www.sciencedirect.com/science/article/abs/pii/S0168159102002770) 
+
+
 ### What is the site?
 
 - Simulation?

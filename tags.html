@@ -9,13 +9,23 @@ layout: default
 
 <h1>Tags</h1>
 
-<br>
+
+<p>
+{% for tag in site.tags %}
+<a href="#{{ tag[0] }}">{{ tag[0] }}</a> |
+{% endfor %}
+</p>
+
+
+<div id="entirePosts">
 
 {% for tag in site.tags %}
-  <a name="{{ tag[0] }}"></a>
-  <h2>{{ tag[0] }}</h2>  <ul>
+  <h2 id="{{ tag[0] }}">{{ tag[0] }}</h2>  
+  <ul>
     {% for post in tag[1] %}
-      <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a> <span>{{ post.discription }} </span></li>
+      <li>
+      {{post.date | date_to_string}} » <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a><br>  <div class="description">{{ post.discription }} </div>
+      </li>
     {% endfor %}
   </ul>
 
@@ -24,4 +34,5 @@ layout: default
 
 </div>
 
+</div>
 

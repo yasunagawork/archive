@@ -9,13 +9,17 @@ layout: default
 
 <h1>全体</h1>
 
+<div id="entirePosts">
+
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>  <span>{{ post.discription }} </span>
+      {{post.date | date_to_string}} » <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a><br>  <div class="description">{{ post.discription }} </div>
     </li>
   {% endfor %}
 </ul>
+
+</div>
 
 
 </div>

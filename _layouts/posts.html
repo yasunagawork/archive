@@ -20,7 +20,11 @@ layout: default2
 
 <div class="main">
 	<div id="textbox">
+		<div class="dates">{{ page.date | date_to_string }}</div>
+
 		{{ content }}
+
+
 		{% include linktag.html %}
 	</div>
 </div>
